@@ -84,7 +84,7 @@ const handleSubmit = () => {
 return (
     <>
     <InnerDeleteGoalButton onClick={openModal}>
-        <img src="images/delete.png" alt="add-goal-btn" />
+        <img src="/images/delete-button-pink.png" alt="add-goal-btn" />
     </InnerDeleteGoalButton>
     <Modal open={showModal} onClose={closeModal} center>
         <ModalContentContainer>

@@ -97,7 +97,7 @@ const handleSubmit = () => {
 return (
     <>
     <InnerUpdateGoalButton onClick={openModal}>
-        <img src="images/edit.png" alt="add-goal-btn" />
+        <img src="images/edit-button-pink.png" alt="add-goal-btn" />
     </InnerUpdateGoalButton>
     <Modal open={showModal} onClose={closeModal} center>
         <ModalContentContainer>
